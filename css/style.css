@@ -222,6 +222,15 @@ h4 {
   text-align: center;
 }
 
+.profile {
+  margin-top: 25px;
+}
+
+.profile .img-box {
+  opacity: 1;
+  display: block;
+  position: relative;
+}
 #spinner {
   opacity: 0;
   visibility: hidden;
