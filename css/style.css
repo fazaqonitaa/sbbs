@@ -53,9 +53,36 @@
   color: white;
 }
 
+.btn-selengkapnya {
+  display: inline-block;
+  background: var(--secondary);
+  color: white;
+  width: 220px;
+  height: 46px;
+  border-radius: 5px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  margin: 2rem 0;
+  margin-left: 500px;
+  justify-content: center;
+  text-align: center;
+}
+.btn-selengkapnya:hover {
+  display: inline-block;
+
+  background: var(--primary);
+  color: white;
+}
+
 .margin-all {
-  margin-left: 100px;
+  margin-left: 300px;
   margin-top: 20px;
+}
+
+.img-prog {
+  width: 45%;
+  height: 25%;
 }
 
 /* .flex-container > div {
@@ -354,12 +381,14 @@ h4 {
 }
 
 .hero-header {
-  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)), url(../img/carousel-1.jpg) center center no-repeat;
+  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)),
+    url(../img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .bg-appointment {
-  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)), url(../img/carousel-1.jpg) center center no-repeat;
+  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)),
+    url(../img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
 }
 
