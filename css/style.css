@@ -85,6 +85,31 @@
   height: 25%;
 }
 
+.img-footer {
+  width: 20%;
+  height: 30%;
+}
+
+.footer-content {
+  margin-left: 10px;
+}
+.footer .footer-center {
+  width: 35%;
+}
+
+.footer .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -199,6 +224,13 @@ h4 {
 .font {
   font-family: "Mulish", sans-serif;
   font-size: 15px;
+}
+
+.Tittle {
+  color: var(--white);
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .btn-primary,
@@ -380,14 +412,12 @@ h4 {
 }
 
 .hero-header {
-  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)), url(../img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .bg-appointment {
-  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)), url(../img/carousel-1.jpg) center center no-repeat;
   background-size: cover;
 }
 
