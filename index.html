@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>SMP Baiturrosyid Boarding School</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -33,338 +34,336 @@
     <link href="css/style.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  </head>
+</head>
 
-  <style>
+<style>
     .bg-image {
-      background-image: url("img/bg.jpg");
-      background-size: 100%;
+        background-image: url("img/bg.jpg");
+        background-size: 100%;
     }
-
+    
     .bg-program {
-      background-image: url("img/bg-program.jpg");
-      background-size: 100%;
+        background-image: url("img/bg-program.jpg");
+        background-size: 100%;
     }
-  </style>
+</style>
 
-  <body>
+<body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-      <div class="spinner-grow text-primary m-1" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-      <div class="spinner-grow text-dark m-1" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
-      <div class="spinner-grow text-secondary m-1" role="status">
-        <span class="sr-only">Loading...</span>
-      </div>
+        <div class="spinner-grow text-primary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-secondary m-1" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
     </div>
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-      <div class="col-md-7">
-        <a href="index.html">
-          <img src="img/logo.png" width="60px" height="54px" style="float: left" />
-          <h1 class="font-weight-black">SMP Baiturrosyid</h1>
-          <h2 class="font-weight-semi-bold">Boarding School Padang</h2>
-        </a>
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <div class="col-md-7">
+            <a href="index.html">
+                <img src="img/logo.png" width="60px" height="54px" style="float: left" />
+                <h1 class="font-weight-black">SMP Baiturrosyid</h1>
+                <h2 class="font-weight-semi-bold">Boarding School Padang</h2>
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-right: 1300px">
-        <div class="navbar-nav ms-auto py-0 font">
-          <a href="index.html" class="nav-item nav-link active">Beranda</a>
-          <div class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang Sekolah</a>
-            <div class="dropdown-menu m-0">
-              <a href="price.html" class="dropdown-item font">Profil Sekolah</a>
-              <a href="team.html" class="dropdown-item">Struktural & Tenaga Pendidik</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-right: 1300px">
+            <div class="navbar-nav ms-auto py-0 font">
+                <a href="index.html" class="nav-item nav-link active">Beranda</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang Sekolah</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="price.html" class="dropdown-item font">Profil Sekolah</a>
+                        <a href="team.html" class="dropdown-item">Struktural & Tenaga Pendidik</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="price.html" class="dropdown-item">Berita Terkini</a>
+                        <a href="team.html" class="dropdown-item">Event</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PPDB</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="tatacara.html" class="dropdown-item">Tata Cara Pendaftaran</a>
+                        <a href="ppdb.html" class="dropdown-item">PPDB</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
-            <div class="dropdown-menu m-0">
-              <a href="price.html" class="dropdown-item">Berita Terkini</a>
-              <a href="team.html" class="dropdown-item">Event</a>
-            </div>
-          </div>
-          <div class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PPDB</a>
-            <div class="dropdown-menu m-0">
-              <a href="tatacara.html" class="dropdown-item">Tata Cara Pendaftaran</a>
-              <a href="ppdb.html" class="dropdown-item">PPDB</a>
-            </div>
-          </div>
+            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
         </div>
-        <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-      </div>
     </nav>
     <!-- Navbar End -->
 
     <!-- Full Screen Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1">
-      <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content" style="background: rgba(9, 30, 62, 0.7)">
-          <div class="modal-header border-0">
-            <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body d-flex align-items-center justify-content-center">
-            <div class="input-group" style="max-width: 600px">
-              <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword" />
-              <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, 0.7)">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword" />
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
     <!-- Full Screen Search End -->
 
     <!-- Content Start -->
     <div class="container-fluid p-0">
-      <div class="mt-2 text-white rounded bg-image" style="width: 100%; height: 654px">
-        <div class="text-center">
-          <a href="ppdb.html" class="btn-custom font-weight-semi-bold">Daftar Sekarang</a>
-        </div>
-      </div>
-
-      <div class="container-xl bg-secondary text-dark p-5 w-100" style="border-radius: 10px; margin-top: -50px; box-shadow: #051225">
-        <div class="d-flex">
-          <div>
-            <img src="img/after.jpg" style="width: 229px; height: 229px" />
-          </div>
-          <div>
-            <p class="font-weight-semi-bold" style="margin-left: 50px">
-              Sekolah berbasis pondok pesantren dengan pola asuh boarding school saat ini merupakan sebuah keniscayaan. Konsep ini mampu menjawab tantangan-tantangan yang dirasakan orang tua dalam menata masa depan pendidikan generasi
-              penerus mereka. Dengan harapan, kelak generus ini tumbuh menjadi anak-anak yang unggul dan gemilang di zamannya.
-            </p>
-            <div class="d-flex" style="margin-left: 50px">
-              <hr style="width: 10px; color: black" />
-              <p>Renol S.Pi,</p>
-              <p>Kepala Sekolah</p>
+        <div class="mt-2 text-white rounded bg-image" style="width: 100%; height: 654px">
+            <div class="text-center">
+                <a href="ppdb.html" class="btn-custom font-weight-semi-bold">Daftar Sekarang</a>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="berita">
-        <div class="margin-all">
-          <h3 style="margin-top: 56px">Berita Terkini</h3>
-          <hr style="width: 53px; color: black; height: 3px" />
-        </div>
-        <div>
-          <p style="margin-left: 1120px; margin-top: -50px">
-            <a href="berita.html" class="p2sem">Selengkapnya</a>
-          </p>
         </div>
 
-        <div class="image-grid" style="margin-top: 46px">
-          <img class="image-grid-col-2 image-grid-row-2" style="height: 90%; margin-left: 100px; margin-right: 500px; border-radius: 10px" src="img/after.jpg" alt="architecture" />
-          <h4 class="txt-judul" style="text-align: center; left: 372px; transform: translate(-50%, -50%); margin-top: 460px">ini adalah kemungkinan judul berita sekolah yang sangat sangat penting bianget yang menyangkut acara sekolah</h4>
-          <img src="img/after.jpg" alt="architecture" style="border-radius: 10px" />
-          <!-- <p class="p2sem" style="text-align: center; transform: translate(-127%, -90%); margin-top: 200px; width: 80%; height: 80px;">ini adalah kemungkinan judul berita sekolah yang sangat sangat penting bianget yang menyangkut</p> -->
-          <img src="img/after.jpg" alt="architecture" style="border-radius: 10px" />
-          <img src="img/after.jpg" alt="architecture" style="margin-right: 100px; border-radius: 10px" />
-          <img src="img/after.jpg" alt="architecture" style="margin-right: 100px; border-radius: 10px" />
+        <div class="container-xl bg-secondary text-dark p-5 w-100" style="border-radius: 10px; margin-top: -50px; box-shadow: #051225">
+            <div class="d-flex">
+                <div>
+                    <img src="img/after.jpg" style="width: 229px; height: 229px" />
+                </div>
+                <div>
+                    <p class="font-weight-semi-bold" style="margin-left: 50px">
+                        Sekolah berbasis pondok pesantren dengan pola asuh boarding school saat ini merupakan sebuah keniscayaan. Konsep ini mampu menjawab tantangan-tantangan yang dirasakan orang tua dalam menata masa depan pendidikan generasi penerus mereka. Dengan harapan,
+                        kelak generus ini tumbuh menjadi anak-anak yang unggul dan gemilang di zamannya.
+                    </p>
+                    <div class="d-flex" style="margin-left: 50px">
+                        <hr style="width: 10px; color: black" />
+                        <p>Renol S.Pi,</p>
+                        <p>Kepala Sekolah</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div class="prestasi">
-        <div class="margin-all">
-          <h3>Prestasi Sekolah</h3>
-          <hr style="width: 53px; color: black; height: 3px" />
-        </div>
-
-        <div class="card-prestasi container-xl p-0 w-100" style="background-color: #e8cc6d; margin-top: 30px">
-          <div class="d-flex">
-            <div>
-              <img src="img/carousel-1.jpg" width="530" height="580" style="margin-top: -10px" />
-              <p class="p1sem font-weight-medium" style="margin-top: 20px">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit nulla, corrupti ad magnam blanditiis labore dignissimos nobis, voluptas suscipit odio. Aut, in molestias fugit cum praesentium animi quibusdam explicabo.
-              </p>
+        <div class="berita">
+            <div class="margin-all">
+                <h3 style="margin-top: 56px">Berita Terkini</h3>
+                <hr style="width: 53px; color: black; height: 3px" />
             </div>
             <div>
-              <p class="p1sem font-weight-medium" style="padding: 6px">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam, laboriosam similique, vel sit soluta maxime tenetur dolorem adipisci voluptatum nemo alias corrupti facilis molestiae nostrum, odit deleniti sunt non?
-              </p>
-              <img src="img/carousel-1.jpg" width="530" height="580" style="align-items: flex-end; margin-right: -30px" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="program">
-        <div class="ml-4 margin-all" style="margin-top: 50px">
-          <h3>Program Sekolah</h3>
-          <hr style="width: 53px; color: black; height: 3px" />
-        </div>
-
-        <div class="bg-program">
-          <div class="row align-content-center margin-all bg-program text-center" style="width: 50%; height: 300px; align-content: center; justify-content: center">
-            <div class="col-lg-4 col-md-3 col-xs-4 thumb text-center">
-              <img src="img/logo.png" class="img-prog" />
-              <p class="p1reg" style="margin-top: 20px">Selama Pendidikan di SBBS Padang, Siswa akan Mengkhatamkan Makna Al-Qur’an dengan Arab Pegon</p>
+                <p style="margin-left: 1120px; margin-top: -50px">
+                    <a href="berita.html" class="p2sem">Selengkapnya</a>
+                </p>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb text-center">
-              <img src="img/logo.png" class="img-prog" />
-              <p class="p1reg" style="margin-top: 20px">Selama Pendidikan di SBBS Padang, Siswa akan Mengkhatamkan Makna Al-Qur’an dengan Arab Pegon</p>
+            <div class="image-grid" style="margin-top: 46px">
+                <img class="image-grid-col-2 image-grid-row-2" style="height: 90%; margin-left: 100px; margin-right: 500px; border-radius: 10px" src="img/after.jpg" alt="architecture" />
+                <h4 class="txt-judul" style="text-align: center; left: 372px; transform: translate(-50%, -50%); margin-top: 460px">ini adalah kemungkinan judul berita sekolah yang sangat sangat penting bianget yang menyangkut acara sekolah</h4>
+                <img src="img/after.jpg" alt="architecture" style="border-radius: 10px" />
+                <!-- <p class="p2sem" style="text-align: center; transform: translate(-127%, -90%); margin-top: 200px; width: 80%; height: 80px;">ini adalah kemungkinan judul berita sekolah yang sangat sangat penting bianget yang menyangkut</p> -->
+                <img src="img/after.jpg" alt="architecture" style="border-radius: 10px" />
+                <img src="img/after.jpg" alt="architecture" style="margin-right: 100px; border-radius: 10px" />
+                <img src="img/after.jpg" alt="architecture" style="margin-right: 100px; border-radius: 10px" />
             </div>
-            <div class="col-lg-4 col-md-4 col-xs-4 thumb text-center">
-              <img src="img/logo.png" class="img-prog" />
-              <p class="p1reg" style="margin-top: 20px">Selama Pendidikan di SBBS Padang, Siswa akan Mengkhatamkan Makna Al-Qur’an dengan Arab Pegon</p>
-            </div>
-          </div>
-          <a href="#" class="btn-selengkapnya">Selengkapnya</a>
-        </div>
-      </div>
-
-      <div class="pimpinan" style="margin-bottom: 60px">
-        <div class="margin-all" style="margin-top: 50px">
-          <h3>Pimpinan Sekolah</h3>
-          <hr style="width: 53px; color: black; height: 3px" />
         </div>
 
-        <div class="row" style="margin-left: 50px">
-          <div class="col-md-3 profile text-center">
-            <div class="img-box">
-              <img src="img/pimpinan1.png" class="img-responsive" />
+        <div class="prestasi">
+            <div class="margin-all">
+                <h3>Prestasi Sekolah</h3>
+                <hr style="width: 53px; color: black; height: 3px" />
             </div>
-            <p class="p1bold" style="margin-top: 15px">Bessie Cooper</p>
-            <hr class="text-center" style="width: 142px; color: black; height: 1px; margin-left: 75px; margin-top: -10px" />
-            <p class="p2reg" style="margin-top: -10px">Kepala Sekolah</p>
-          </div>
-          <div class="col-md-3 profile text-center">
-            <div class="img-box">
-              <img src="img/pimpinan1.png" class="img-responsive" />
+
+            <div class="card-prestasi container-xl p-0 w-100" style="background-color: #e8cc6d; margin-top: 30px">
+                <div class="d-flex">
+                    <div>
+                        <img src="img/carousel-1.jpg" width="530" height="580" style="margin-top: -10px" />
+                        <p class="p1sem font-weight-medium" style="margin-top: 20px">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem velit nulla, corrupti ad magnam blanditiis labore dignissimos nobis, voluptas suscipit odio. Aut, in molestias fugit cum praesentium animi quibusdam explicabo.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="p1sem font-weight-medium" style="padding: 6px">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam, laboriosam similique, vel sit soluta maxime tenetur dolorem adipisci voluptatum nemo alias corrupti facilis molestiae nostrum, odit deleniti sunt non?
+                        </p>
+                        <img src="img/carousel-1.jpg" width="530" height="580" style="align-items: flex-end; margin-right: -30px" />
+                    </div>
+                </div>
             </div>
-            <p class="p1bold" style="margin-top: 15px">Bessie Cooper</p>
-            <hr style="width: 142px; color: black; height: 1px; margin-left: 75px; margin-top: -10px" />
-            <p class="p2reg" style="margin-top: -10px">Kepala Sekolah</p>
-          </div>
-          <div class="col-md-3 profile text-center">
-            <div class="img-box">
-              <img src="img/pimpinan1.png" class="img-responsive" />
-            </div>
-            <p class="p1bold" style="margin-top: 15px">Bessie Cooper</p>
-            <hr style="width: 142px; color: black; height: 1px; margin-left: 75px; margin-top: -10px" />
-            <p class="p2reg" style="margin-top: -10px">Kepala Sekolah</p>
-          </div>
-          <div class="col-md-3 profile text-center">
-            <div class="img-box">
-              <img src="img/pimpinan1.png" class="img-responsive" />
-            </div>
-            <p class="p1bold" style="margin-top: 15px">Bessie Cooper</p>
-            <hr style="width: 142px; color: black; height: 1px; margin-left: 75px; margin-top: -10px" />
-            <p class="p2reg" style="margin-top: -10px">Kepala Sekolah</p>
-          </div>
         </div>
-      </div>
+
+        <div class="program">
+            <div class="ml-4 margin-all" style="margin-top: 50px">
+                <h3>Program Sekolah</h3>
+                <hr style="width: 53px; color: black; height: 3px" />
+            </div>
+
+            <div class="bg-program">
+                <div class="row align-content-center margin-all bg-program text-center" style="width: 50%; height: 300px; align-content: center; justify-content: center">
+                    <div class="col-lg-4 col-md-3 col-xs-4 thumb text-center">
+                        <img src="img/logo.png" class="img-prog" />
+                        <p class="p1reg" style="margin-top: 20px">Selama Pendidikan di SBBS Padang, Siswa akan Mengkhatamkan Makna Al-Qur’an dengan Arab Pegon</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-xs-4 thumb text-center">
+                        <img src="img/logo.png" class="img-prog" />
+                        <p class="p1reg" style="margin-top: 20px">Selama Pendidikan di SBBS Padang, Siswa akan Mengkhatamkan Makna Al-Qur’an dengan Arab Pegon</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4 thumb text-center">
+                        <img src="img/logo.png" class="img-prog" />
+                        <p class="p1reg" style="margin-top: 20px">Selama Pendidikan di SBBS Padang, Siswa akan Mengkhatamkan Makna Al-Qur’an dengan Arab Pegon</p>
+                    </div>
+                </div>
+                <a href="#" class="btn-selengkapnya">Selengkapnya</a>
+            </div>
+        </div>
+
+        <div class="pimpinan" style="margin-bottom: 60px">
+            <div class="margin-all" style="margin-top: 50px">
+                <h3>Pimpinan Sekolah</h3>
+                <hr style="width: 53px; color: black; height: 3px" />
+            </div>
+
+            <div class="row" style="margin-left: 50px">
+                <div class="col-md-3 profile text-center">
+                    <div class="img-box">
+                        <img src="img/pimpinan1.png" class="img-responsive" />
+                    </div>
+                    <p class="p1bold" style="margin-top: 15px">Bessie Cooper</p>
+                    <hr class="text-center" style="width: 142px; color: black; height: 1px; margin-left: 75px; margin-top: -10px" />
+                    <p class="p2reg" style="margin-top: -10px">Kepala Sekolah</p>
+                </div>
+                <div class="col-md-3 profile text-center">
+                    <div class="img-box">
+                        <img src="img/pimpinan1.png" class="img-responsive" />
+                    </div>
+                    <p class="p1bold" style="margin-top: 15px">Bessie Cooper</p>
+                    <hr style="width: 142px; color: black; height: 1px; margin-left: 75px; margin-top: -10px" />
+                    <p class="p2reg" style="margin-top: -10px">Kepala Sekolah</p>
+                </div>
+                <div class="col-md-3 profile text-center">
+                    <div class="img-box">
+                        <img src="img/pimpinan1.png" class="img-responsive" />
+                    </div>
+                    <p class="p1bold" style="margin-top: 15px">Bessie Cooper</p>
+                    <hr style="width: 142px; color: black; height: 1px; margin-left: 75px; margin-top: -10px" />
+                    <p class="p2reg" style="margin-top: -10px">Kepala Sekolah</p>
+                </div>
+                <div class="col-md-3 profile text-center">
+                    <div class="img-box">
+                        <img src="img/pimpinan1.png" class="img-responsive" />
+                    </div>
+                    <p class="p1bold" style="margin-top: 15px">Bessie Cooper</p>
+                    <hr style="width: 142px; color: black; height: 1px; margin-left: 75px; margin-top: -10px" />
+                    <p class="p2reg" style="margin-top: -10px">Kepala Sekolah</p>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Content End -->
 
     <!-- Footer Start -->
     <div class="footerWrap">
-      <div class="footer">
-        <div class="footerCol">
-          <div class="footerLogo">
-            <img src="img/logo.png" alt="SBBS Padang" class="img-footer" />
-            <p class="p1bold" style="color: #212121; text-align: center">SMP Baiturrosyid</p>
-            <p class="p1bold" style="color: #212121; margin-top: -15px; text-align: center">Boarding School</p>
-            <p class="p1bold" style="color: #212121; margin-top: -15px; text-align: center">Padang</p>
-          </div>
-          <div>
-            <a href="https://www.facebook.com/AlvernoCollege/" target="_blank"><span class="fa fa-facebook-f"></span></a>
-            <a href="https://www.instagram.com/alvernocollege/" target="_blank"><span class="fa fa-instagram"></span></a>
-            <a href="https://twitter.com/alvernocollege" target="_blank"><span class="fa fa-twitter"></span></a>
-            <a href="https://www.linkedin.com/school/alverno-college/" target="_blank"><span class="fa fa-linkedin"></span></a>
-          </div>
-        </div>
-        <div class="footerCol">
-          <div id="wMRT7T18PZKC22PT" class="mwPageBlock Content" style="">
-            <div class="blockContents">
-              <p class="p1bold">Hubungi Kami</p>
-              <div>
-                <img src="img/location_icon.svg" style="width: 32px; height: 32px" />
-                <p class="p2reg">
-                  Jalan Bhakti Abri RT. 02 / RW. 05, Kel.
-                  <br />
-                  Koto Panjang Ikua Koto, Kec. Koto
-                  <br />
-                  Tangah, Padang, Sumatera Barat 25175
-                </p>
-              </div>
-              <div>
-                <img src="img/call_icon.svg" style="width: 32px; height: 32px" />
-                <a href="tel:0621326545 " class="p2reg">(0621)326545 </a>
-              </div>
-              <div>
-                <img src="img/email_icon.svg" style="width: 32px; height: 32px" />
-                <a href="mailto:sbbspadang@gmail.com" class="p2reg">sbbspadang@gmail.com</a>
-              </div>
+        <div class="footer">
+            <div class="footerCol">
+                <div class="footerLogo">
+                    <img src="img/logo.png" width="118" height="110" />
+                    <h5>SMP Baiturrosyid</h5>
+                    <h5>Boarding School</h5>
+                    <h5>Padang</h5>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/AlvernoCollege/" target="_blank"><span class="fa fa-facebook-f"></span></a>
+                    <a href="https://www.instagram.com/alvernocollege/" target="_blank"><span class="fa fa-instagram"></span></a>
+                    <a href="https://twitter.com/alvernocollege" target="_blank"><span class="fa fa-twitter"></span></a>
+                    <a href="https://www.linkedin.com/school/alverno-college/" target="_blank"><span class="fa fa-linkedin"></span></a>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="footerCol" style="margin-left: 200px">
-          <div id="wYWPWWXOFHW4PU9N" class="mwPageBlock Menu" style="">
-            <div class="blockContents">
-              <p class="p1bold">Berita</p>
-              <ul id="misw05pFn">
-                <li class="no-children">
-                  <a href="/Careers-at-Alverno"><span class="Title">Berita Terkini</span></a>
-                </li>
-                <li class="no-children">
-                  <a href="/Event-Spaces"><span class="Title">Event</span></a>
-                </li>
-                <li class="no-children">
-                  <a href="/Trustees"><span class="Title">Pengumuman</span></a>
-                </li>
-              </ul>
+            <div class="footerCol">
+                <div id="wMRT7T18PZKC22PT" class="mwPageBlock Content" style="">
+                    <div class="blockContents">
+                        <p class="p1bold">Hubungi Kami</p>
+                        <div>
+                            <img src="img/location_icon.svg" style="width: 32px; height: 32px" />
+                            <p class="p2reg">
+                                Jalan Bhakti Abri RT. 02 / RW. 05, Kel.
+                                <br /> Koto Panjang Ikua Koto, Kec. Koto
+                                <br /> Tangah, Padang, Sumatera Barat 25175
+                            </p>
+                        </div>
+                        <div>
+                            <img src="img/call_icon.svg" style="width: 32px; height: 32px" />
+                            <a href="tel:0621326545 " class="p2reg">(0621)326545 </a>
+                        </div>
+                        <div>
+                            <img src="img/email_icon.svg" style="width: 32px; height: 32px" />
+                            <a href="mailto:sbbspadang@gmail.com" class="p2reg">sbbspadang@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="footerCol">
-          <div id="wMYXMGUKYLIV6WMN" class="mwPageBlock Menu" style="">
-            <div class="blockContents">
-              <p class="p1bold">PPDB</p>
-              <ul id="misw05pFn">
-                <li class="no-children">
-                  <a href="/Careers-at-Alverno"><span class="Title">Tata Cara Pendaftaran</span></a>
-                </li>
-                <li class="no-children">
-                  <a href="/Event-Spaces"><span class="Title">PPDB</span></a>
-                </li>
-              </ul>
+            <div class="footerCol" style="margin-left: 200px">
+                <div id="wYWPWWXOFHW4PU9N" class="mwPageBlock Menu" style="">
+                    <div class="blockContents">
+                        <p class="p1bold">Berita</p>
+                        <ul id="misw05pFn">
+                            <li class="no-children">
+                                <a href="/Careers-at-Alverno"><span class="Title">Berita Terkini</span></a>
+                            </li>
+                            <li class="no-children">
+                                <a href="/Event-Spaces"><span class="Title">Event</span></a>
+                            </li>
+                            <li class="no-children">
+                                <a href="/Trustees"><span class="Title">Pengumuman</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="footerCol">
+                <div id="wMYXMGUKYLIV6WMN" class="mwPageBlock Menu" style="">
+                    <div class="blockContents">
+                        <p class="p1bold">PPDB</p>
+                        <ul id="misw05pFn">
+                            <li class="no-children">
+                                <a href="/Careers-at-Alverno"><span class="Title">Tata Cara Pendaftaran</span></a>
+                            </li>
+                            <li class="no-children">
+                                <a href="/Event-Spaces"><span class="Title">PPDB</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="footerCol" style="margin-left: 850px; margin-top: -60px">
-        <div id="wMYXMGUKYLIV6WMN" class="mwPageBlock Menu" style="">
-          <div class="blockContents">
-            <p class="p1bold" style="color: #f2f2f2">Tentang Sekolah</p>
-            <ul id="misw05pFn">
-              <li class="no-children">
-                <a href="/Careers-at-Alverno"><span class="Title">Profil Sekolah</span></a>
-              </li>
-              <li class="no-children">
-                <a href="/Event-Spaces"><span class="Title">Struktural & Tenaga Pendidik</span></a>
-              </li>
-            </ul>
-          </div>
+        <div class="footerCol" style="margin-left: 850px; margin-top: -60px">
+            <div id="wMYXMGUKYLIV6WMN" class="mwPageBlock Menu" style="">
+                <div class="blockContents">
+                    <p class="p1bold" style="color: #f2f2f2">Tentang Sekolah</p>
+                    <ul id="misw05pFn">
+                        <li class="no-children">
+                            <a href="/Careers-at-Alverno"><span class="Title">Profil Sekolah</span></a>
+                        </li>
+                        <li class="no-children">
+                            <a href="/Event-Spaces"><span class="Title">Struktural & Tenaga Pendidik</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <div class="copyrightWrap">
-      <div class="copyright">
-        <div id="wBYMBUP6T8RXQYVW" class="mwPageBlock Content" style="">
-          <div class="blockContents">
-            <p>&copy; 2022 SMP Baiturrosyid Boarding School Padang. All rights reserved.</p>
-          </div>
+        <div class="copyright">
+            <div id="wBYMBUP6T8RXQYVW" class="mwPageBlock Content" style="">
+                <div class="blockContents">
+                    <p>&copy; 2022 SMP Baiturrosyid Boarding School Padang. All rights reserved.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- Footer End -->
 
@@ -383,5 +382,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
