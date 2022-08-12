@@ -203,7 +203,7 @@ h4 {
     font-weight: 600;
 }
 
-.p1bold {
+.blockContents p {
     color: black;
     font-family: "Work Sans", sans-serif;
     font-size: 20px;
@@ -597,10 +597,32 @@ h4 {
 }
 
 .footer p {
-    font-size: 16px;
+    font-size: 20px;
     margin: 15px 0;
     line-height: 1.6;
     color: #fff;
+}
+
+.footerCol h3 {
+    margin-left: 20px;
+    font-size: 20px;
+    margin: 15px 0;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.footerCol p {
+    font-size: 20px;
+    margin: 15px 0;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.p1bold {
+    color: black;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .footer li {
