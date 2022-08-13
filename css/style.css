@@ -792,7 +792,7 @@ h4 {
 
 .info-berita {
   margin-left: 30px;
-  margin-right: 400px;
+  margin-right: 100px;
   margin-top: 12px;
 }
 
@@ -806,13 +806,16 @@ h4 {
 }
 
 .margin-berita-penting {
-  margin-right: 100px;
+  margin-right: 20px;
 }
 
 .card-berita-penting {
-  margin-right: 100px;
+  margin-right: 120px;
 }
 .card-berita-penting-satuan img {
   width: 200px;
   height: 160px;
+}
+.card-berita-penting-satuan p {
+  margin-top: 20px;
 }
