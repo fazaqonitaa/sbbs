@@ -1,0 +1,328 @@
+/* 
+	Mega menu CSS 
+	Based on Adobe's accessible mega menu
+	By Sebastien Marchal / Brock University
+*/
+
+
+/*
+	For reference the full menu path is:
+	div#main-menu-container > div.menu-inner-container > div.main-menu-parent > div.main-menu > ul.menu
+*/
+
+
+/* ----------------------------------------------
+   ----------------------------------------------
+   Default
+   ----------------------------------------------
+   ---------------------------------------------- */
+
+@media only screen and (min-width: 841px) {
+    /* Mobile toggle */
+    #mobile-toggle {
+        display: none;
+    }
+    /* mega menu list */
+    #main-menu-container {
+        top: 60px;
+        margin: 0 auto;
+        width: 100%;
+        height: 50px;
+        clear: both;
+        display: block;
+        font-size: 1em;
+        /* background: transparent; */
+        background: #005640;
+        /* Change this to force the background colour of the menu. */
+    }
+    #main-menu-container2 {
+        top: 60px;
+        margin: 0 auto;
+        width: 100%;
+        height: 50px;
+        clear: both;
+        display: block;
+        font-size: 1em;
+        /* background: transparent; */
+        background: #fff;
+        /* Change this to force the background colour of the menu. */
+    }
+    .input-group {
+        margin-left: 1150px;
+    }
+    #main-menu-container .menu-inner-container {
+        margin: 0 auto;
+        display: block;
+    }
+    #main-menu-container .menu-inner-container .main-menu-parent {
+        display: block;
+        width: 100%;
+    }
+    #main-menu-container .menu-inner-container .main-menu-parent .main-menu ul.menu {
+        display: inline-block;
+        position: relative;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        right: 56px;
+        z-index: 1000;
+        /* The carousel is at 100, we need to be higher. */
+        font-weight: 200;
+        width: 100%;
+        top: 10px;
+        text-align: right;
+    }
+    /* ADJUSTMENTS TO APPLY TO ALL LINKS
+       -------------------------------------------------------------- */
+    #main-menu-container .menu .menu-item a {
+        color: #000;
+        text-decoration: none;
+        background: #005640;
+    }
+    /* Sets the colour of top level links */
+    #main-menu-container .menu .menu-item a:hover {
+        color: #000;
+        background: #005640;
+    }
+    #main-menu-container .menu .menu-item a:focus {
+        color: #000;
+        background: #005640 !important;
+        outline: none;
+    }
+    #main-menu-container .menu .sub-menu .menu-item a {
+        color: #000;
+        text-decoration: none;
+        line-height: 120%;
+    }
+    /* External Link indicator */
+    #main-menu-container .menu .menu-item a[target="_blank"]:after {
+        content: "\f08e";
+        display: inline-block;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        font-size: 70%;
+        margin-left: 7px;
+    }
+    /* second level chevron indicator */
+    #main-menu-container .menu .menu-item-has-children>a:after {
+        content: "\f107" !important;
+        display: inline-block;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        font-size: 90%;
+        margin-left: 7px;
+    }
+    /* third level indicator */
+    #main-menu-container .menu .menu-item-has-children .menu-item-has-children>a:after {
+        content: "" !important;
+        font-size: 70%;
+    }
+    /* LEVEL 1 MENU
+       -------------------------------------------------------------- */
+    /* first link - home icon */
+    #main-menu-container .menu>.menu-item.home>a:before {
+        content: "\f015" !important;
+        display: inline-block;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-size: 0.9em !important;
+        font-weight: normal;
+        line-height: 1;
+        font-size: 90%;
+        margin-right: 2px;
+    }
+    /* Last link - contact icon */
+    #main-menu-container .main-menu ul li.contact {
+        float: right;
+    }
+    #main-menu-container .menu>li.contact>a:after {
+        content: "\f0e0" !important;
+        display: inline-block;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-size: 1em !important;
+        font-weight: normal;
+        line-height: 1;
+        font-size: 100%;
+        margin-left: 10px;
+    }
+    /* a top level navigation item in the mega menu */
+    #main-menu-container .menu>.menu-item {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        margin-right: -5px;
+        /* remove the extra space */
+        /* float: left; */
+    }
+    /* first descendant link within a top level navigation item */
+    #main-menu-container .menu>.menu-item>a {
+        position: relative;
+        display: inline-block;
+        padding: 1em 1em 0 1em;
+        border-right: none;
+        -webkit-transition: background-color 0.05s ease-out;
+        -moz-transition: background-color 0.05s ease-out;
+        -ms-transition: background-color 0.05s ease-out;
+        -o-transition: background-color 0.05s ease-out;
+        transition: background-color 0.05s ease-out;
+    }
+    #main-menu-container .menu>.menu-item:first-child>a {
+        padding-left: 15px;
+        border-left: none;
+    }
+    #main-menu-container .menu>.menu-item:last-child>a {
+        border-right: none;
+    }
+    /* if the last menu item has children, we re-apply the border */
+    #main-menu-container .menu>.menu-item-has-children.menu-item:last-child:hover>a {
+        border-right: none;
+    }
+    /* focus/open states of first descendant link within a top level navigation item */
+    #main-menu-container .menu>.menu-item>a:focus,
+    #main-menu-container .menu>.menu-item>a:hover,
+    #main-menu-container .menu>.menu-item>a.open {
+        color: #fff;
+    }
+    /* open state of first descendant link within a top level navigation item */
+    #main-menu-container .menu>.menu-item>a.open {
+        background-color: #ac0000;
+        border-bottom: none;
+    }
+    /* Current Menu Item */
+    #main-menu-container .main-menu ul li.current-menu-item>a,
+    #main-menu-container .main-menu ul li.current-menu-ancestor>a,
+    #main-menu-container .main-menu ul li.current-menu-parent>a {
+        background-color: #ac0000;
+    }
+    /* LEVEL 2 MENU
+       -------------------------------------------------------------- */
+    .main-menu li.menu-item-has-children a:hover+.sub-menu {
+        display: block;
+    }
+    /* sub-navigation panel */
+    .main-menu .sub-menu {
+        display: none;
+    }
+    .main-menu .sub-menu {
+        position: absolute;
+        display: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: #ac0000;
+    }
+    /* sub-navigation panel open state */
+    .main-menu .sub-menu.open {
+        display: block;
+    }
+    /* Level 2 menu items */
+    .main-menu .sub-menu>li.menu-item {
+        display: block;
+        width: 250px;
+        /* border-top: 1px solid #fff; sub menu item separator */
+    }
+    /* Level 2 menu item has level 3 children */
+    .main-menu .sub-menu>li.menu-item-has-children {
+        /* padding-bottom: 15px; */
+    }
+    /* Level 2 menu items on hover */
+    .main-menu .sub-menu>li.menu-item a:focus,
+    .main-menu .sub-menu>li.menu-item:hover a {
+        background: #8c0000 !important;
+    }
+    /* Level 2 menu first child hover */
+    .main-menu .sub-menu>li.menu-item:first-child:hover {}
+    /* Level 2 menu item individual links */
+    .main-menu .sub-menu>li.menu-item:first-child>a {
+        border-top: none;
+    }
+    /* Level 2 menu direct children - excluding 3rd level */
+    .main-menu .sub-menu>li.menu-item>a {
+        padding: 0.9em 15px 0.8em 15px;
+        /*border-top: 1px solid #505050;*/
+        display: inline-block;
+        width: 100%;
+    }
+    /* Level 2 Current Menu Item */
+    .main-menu .sub-menu>li.current-menu-item>a {
+        background-color: #8c0000 !important;
+    }
+    /* LEVEL 3 MENU
+       -------------------------------------------------------------- */
+    /* list of items within sub-navigation panel */
+    .sub-menu>li>ul.sub-menu {
+        display: none !important;
+        /* change to block to re-enable */
+        vertical-align: top;
+        margin: 0 15px 0 15px;
+        padding: 0;
+        background: transparent;
+    }
+    /* Level 3 menu items */
+    /* individual list item within sub-navigation panel */
+    .sub-menu ul.sub-menu li {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background: transparent;
+    }
+    .sub-menu ul.sub-menu li>a {
+        padding: 8px 15px 8px 10px;
+        display: inline-block;
+        width: 100%;
+        font-size: 12px;
+    }
+    .sub-menu ul.sub-menu li>a:before {
+        content: "\f105";
+        color: #484848;
+        display: inline-block;
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        font-size: 90%;
+        margin-right: 7px;
+    }
+    .sub-menu ul.sub-menu li:hover>a {
+        background: transparent;
+        color: #fff !important;
+    }
+    .sub-menu ul.sub-menu li:hover>a:before {
+        color: #fff;
+    }
+}
+
+@media only screen and (min-width: 1115px) and (max-width: 1499px) {
+    /* Level 2 menu items */
+    .main-menu .sub-menu>li.menu-item {
+        display: block;
+        width: 275px;
+        /* border-top: 1px solid #fff; sub menu item separator */
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    /* Level 2 menu items */
+    .main-menu .sub-menu>li.menu-item {
+        display: block;
+        width: 300px;
+        /* border-top: 1px solid #fff; sub menu item separator */
+    }
+}
+
+
+/* Small Tablet
+   ----------------------- */
+
+@media only screen and (min-width: 841px) and (max-width: 950px) {
+    #main-menu-container .menu>.menu-item>a {
+        padding: 1em 0.6em 0 0.6em;
+    }
+}

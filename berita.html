@@ -29,6 +29,8 @@
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
     <link href="lib/twentytwenty/twentytwenty.css" rel="stylesheet" />
 
+
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,15 +39,27 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/flickity.min.css" rel="stylesheet" />
+    <link href="css/brock.css" rel="stylesheet" />
+    <link href="css/menu.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
     <style>
         .bg-header {
             background-image: url("img/bg-program.jpg");
-        width: 1254px;
-        height: 440px;
-        margin-left: 50px;
+            width: 1254px;
+            height: 440px;
+            margin-left: 50px;
+        }
+        
+        .bg-image {
+            background-image: url("img/bg.jpg");
+            background-size: 100%;
+        }
+        
+        .bg-program {
+            background-image: url("img/bg-program.jpg");
+            background-size: 100%;
         }
     </style>
 </head>
@@ -66,8 +80,73 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    
-    <!-- Navbar End -->
+    <div id="header" role="banner">
+        <div id="header-subcontainer">
+            <a id="brand" class="brocku" href="https://brocku.ca" title="Brock University home page" rel="home" tabindex="10">
+                <svg width="500" height="135" left="100">
+				<image xlink:href="img/LogoBerita.png" src="img/LogoBerita.png" width="100%" height="100%">
+			</svg></a>
+            <a id="subbrand" class="thebrocknews" href="https://brocku.ca/brock-news" title="The Brock News Home Page" rel="home" tabindex="11">
+                <svg width="300" height="75">
+				<image xlink:href="img/SBBS News.png" src="img/SBBS News.png" width="100%" height="100%">
+
+			</svg></a>
+            <!-- <p class="thisissue"><span class="date">Saturday, August 13, 2022</span> <span class="divider"> -->
+            <h5>Saturday, August 13, 2022</h5>
+
+            <hr>
+
+        </div>
+
+    </div>
+    <!-- #header -->
+    <!-- Menu -->
+    <div id="main-menu-container" role="navigation">
+        <div class="menu-inner-container">
+            <div class="main-menu-parent">
+                <div class="main-menu">
+                    <ul id="menu-main-menu" class="menu">
+                        <div class="input-group">
+                            <input type="text">
+                            <div class="input">
+                                <div class="input-group-text">
+                                    <span class="fas fa-search"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-menu-container2" role="navigation">
+        <div class="menu-inner-container">
+            <div class="main-menu-parent">
+                <div class="main-menu">
+                    <ul id="menu-main-menu" class="menu">
+                        <div class="col-sm-6">
+                            <ol class="breadcrumb float-sm-right" left="100px">
+                                <li class="breadcrumb-item"><a href="dashboard">Home</a></li>
+                                <li class="breadcrumb-item active" style="font-weight: 500;">Berita</li>
+                            </ol>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-menu-container2" role="navigation">
+        <div class="menu-inner-container">
+            <div class="main-menu-parent">
+                <div class="main-menu">
+                    <ul id="menu-main-menu" class="menu">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Full Screen Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1">
@@ -88,16 +167,13 @@
     <!-- Full Screen Search End -->
 
     <!-- Content Start -->
-    <div class="container-fluid p-0">
+    <div class="container-fluid " top="100px">
         <!-- Header Berita -->
         <div class="header-berita bg-header">
-            <h3 style="margin-left: 80px;">Ac ut nullam 
-                <br>
-                curabitur cursus tortor, quam.
-                <br>
-                Semper at elementum, justo,
-                <br>
-                aliquet vel in est.</h3>
+            <h3 style="margin-left: 80px;">Ac ut nullam
+                <br> curabitur cursus tortor, quam.
+                <br> Semper at elementum, justo,
+                <br> aliquet vel in est.</h3>
             <a href="ppdb.html" class=" btn-selengkapnya font-weight-semi-bold">Selengkapnya</a>
             <div>
                 <img src="img/after.jpg" style="width: 600px; height: 400px; margin-left: 570px; margin-top: -200px;">
@@ -122,7 +198,7 @@
                             <p class="p2reg tanggal">23 November 2022</p>
                         </div>
                         <div class="info-berita">
-                            <p class="p2reg">Ac ut nullam curabitur cursus tortor, quam. Semper at elementum, justo, aliquet vel in est. Diam senectus quis ut varius libero bibendum augue est aliquet. aliquet vel in est. Diam...  <a href="detail-berita.html" class="font-weight-medium">Selengkapnya</a></p>
+                            <p class="p2reg">Ac ut nullam curabitur cursus tortor, quam. Semper at elementum, justo, aliquet vel in est. Diam senectus quis ut varius libero bibendum augue est aliquet. aliquet vel in est. Diam... <a href="detail-berita.html" class="font-weight-medium">Selengkapnya</a></p>
                         </div>
                     </div>
                 </div>
@@ -138,7 +214,7 @@
                             <p class="p2reg tanggal">23 November 2022</p>
                         </div>
                         <div class="info-berita">
-                            <p class="p2reg">Ac ut nullam curabitur cursus tortor, quam. Semper at elementum, justo, aliquet vel in est. Diam senectus quis ut varius libero bibendum augue est aliquet. aliquet vel in est. Diam...  <a href="detail-berita.html" class="font-weight-medium">Selengkapnya</a></p>
+                            <p class="p2reg">Ac ut nullam curabitur cursus tortor, quam. Semper at elementum, justo, aliquet vel in est. Diam senectus quis ut varius libero bibendum augue est aliquet. aliquet vel in est. Diam... <a href="detail-berita.html" class="font-weight-medium">Selengkapnya</a></p>
                         </div>
                     </div>
                 </div>
@@ -154,7 +230,7 @@
                             <p class="p2reg tanggal">23 November 2022</p>
                         </div>
                         <div class="info-berita">
-                            <p class="p2reg">Ac ut nullam curabitur cursus tortor, quam. Semper at elementum, justo, aliquet vel in est. Diam senectus quis ut varius libero bibendum augue est aliquet. aliquet vel in est. Diam...  <a href="detail-berita.html" class="font-weight-medium">Selengkapnya</a></p>
+                            <p class="p2reg">Ac ut nullam curabitur cursus tortor, quam. Semper at elementum, justo, aliquet vel in est. Diam senectus quis ut varius libero bibendum augue est aliquet. aliquet vel in est. Diam... <a href="detail-berita.html" class="font-weight-medium">Selengkapnya</a></p>
                         </div>
                     </div>
                 </div>
@@ -170,7 +246,7 @@
                             <p class="p2reg tanggal">23 November 2022</p>
                         </div>
                         <div class="info-berita">
-                            <p class="p2reg">Ac ut nullam curabitur cursus tortor, quam. Semper at elementum, justo, aliquet vel in est. Diam senectus quis ut varius libero bibendum augue est aliquet. aliquet vel in est. Diam...  <a href="detail-berita.html" class="font-weight-medium">Selengkapnya</a></p>
+                            <p class="p2reg">Ac ut nullam curabitur cursus tortor, quam. Semper at elementum, justo, aliquet vel in est. Diam senectus quis ut varius libero bibendum augue est aliquet. aliquet vel in est. Diam... <a href="detail-berita.html" class="font-weight-medium">Selengkapnya</a></p>
                         </div>
                     </div>
                 </div>
@@ -202,7 +278,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
     <!-- Content End -->
 
@@ -329,6 +405,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="js/brock.js"></script>
 </body>
 
 </html>
