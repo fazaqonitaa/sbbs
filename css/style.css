@@ -33,7 +33,7 @@ h1 {
   color: var(--primary);
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
-  margin-left: 80px;
+  margin-left: 110px;
   margin-top: 6px;
 }
 
@@ -41,7 +41,7 @@ h2 {
   color: var(--primary);
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
-  margin-left: 80px;
+  margin-left: 110px;
   margin-top: -4px;
 }
 
@@ -790,6 +790,11 @@ h4 {
 
 /* -----------------------List Berita----------------------- */
 
+.margin-berita-all {
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
 .info-berita {
   margin-left: 30px;
   margin-right: 100px;
@@ -818,4 +823,74 @@ h4 {
 }
 .card-berita-penting-satuan p {
   margin-top: 20px;
+}
+
+/* -----------------------Detail Berita----------------------- */
+
+.detail-berita h3 {
+  margin-right: 200px;
+}
+
+.detail-berita img {
+  width: 770px;
+  height: 420px;
+}
+
+.paragraf-berita {
+  margin-right: 120px;
+  text-align: justify;
+}
+.paragraf-berita-n {
+  margin-right: 120px;
+  text-align: justify;
+  margin-top: 40px;
+}
+
+/* ----------------------- Event ----------------------- */
+
+.header-event img {
+  width: 1150px;
+  height: 549px;
+}
+
+.card-judul {
+  width: 480px;
+  height: 180px;
+  background-color: var(--white);
+  position: absolute;
+  margin-top: -180px;
+}
+
+.card-judul h3 {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.card-kalender {
+  position: absolute;
+  margin-left: 1060px;
+  margin-top: -550px;
+}
+
+.card-tanggal {
+  width: 50px;
+  height: 50px;
+  background-color: var(--white);
+}
+
+.card-tanggal h4 {
+  color: var(--primary);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.card-bulan {
+  width: 50px;
+  height: 30px;
+  background-color: var(--primary);
+}
+
+.card-bulan p {
+  color: var(--white);
+  padding-left: 4px;
 }
