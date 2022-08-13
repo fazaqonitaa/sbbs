@@ -790,6 +790,11 @@ h4 {
 
 /* -----------------------List Berita----------------------- */
 
+.margin-berita-all {
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
 .info-berita {
   margin-left: 30px;
   margin-right: 100px;
@@ -818,4 +823,25 @@ h4 {
 }
 .card-berita-penting-satuan p {
   margin-top: 20px;
+}
+
+/* -----------------------Detail Berita----------------------- */
+
+.detail-berita h3 {
+  margin-right: 200px;
+}
+
+.detail-berita img {
+  width: 770px;
+  height: 420px;
+}
+
+.paragraf-berita {
+  margin-right: 120px;
+  text-align: justify;
+}
+.paragraf-berita-n {
+  margin-right: 120px;
+  text-align: justify;
+  margin-top: 40px;
 }
