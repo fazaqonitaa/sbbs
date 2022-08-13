@@ -270,6 +270,7 @@ h4 {
   opacity: 1;
   display: block;
   position: relative;
+  margin-left: 40px;
 }
 
 .footerWrap {
@@ -873,24 +874,72 @@ h4 {
 }
 
 .card-tanggal {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   background-color: var(--white);
 }
 
 .card-tanggal h4 {
   color: var(--primary);
   text-align: center;
-  padding-top: 10px;
+  padding-top: 18px;
 }
 
 .card-bulan {
-  width: 50px;
-  height: 30px;
+  width: 60px;
+  height: 40px;
   background-color: var(--primary);
 }
 
 .card-bulan p {
   color: var(--white);
-  padding-left: 4px;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+.card-event {
+  margin-left: 66px;
+}
+
+.content-event {
+  margin-right: -60px;
+}
+.card-event .p1bold {
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.card-event .p2reg {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.card-kalender-kecil {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -304px;
+}
+
+.card-tanggal-kecil {
+  width: 50px;
+  height: 50px;
+  background-color: var(--white);
+}
+
+.card-tanggal-kecil h4 {
+  color: var(--primary);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.card-bulan-kecil {
+  width: 50px;
+  height: 30px;
+  background-color: var(--primary);
+}
+
+.card-bulan-kecil p {
+  color: var(--white);
+  padding-top: 2px;
+  padding-left: 8px;
 }
