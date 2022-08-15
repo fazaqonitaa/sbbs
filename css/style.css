@@ -841,6 +841,7 @@ h4 {
   margin-right: 120px;
   text-align: justify;
 }
+
 .paragraf-berita-n {
   margin-right: 120px;
   text-align: justify;
@@ -946,6 +947,50 @@ h4 {
 
 /* ----------------------- Detail Event ----------------------- */
 
+.card-jadwal {
+  margin-left: 100px;
+  margin-top: 40px;
+  width: 1500px;
+  height: 200px;
+  background-color: var(--tertiary);
+  border-radius: 5px;
+}
+
+.margin-detail-event {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.paragraf-event {
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.paragraf-event-n {
+  margin-right: 100px;
+  text-align: justify;
+  margin-top: 40px;
+}
+
+.info1 {
+  margin-top: 35px;
+}
+
+.card-jadwal i {
+  color: var(--black);
+  margin-left: 20px;
+}
+
+.card-jadwal p {
+  margin-left: 10px;
+}
+
+.tag-card {
+  width: 250px;
+  height: 30px;
+  background-color: var(--tertiary);
+  border-radius: 5px;
+}
 /* ----------------------- Pengumuman ----------------------- */
 
 /* ----------------------- Detail Pengumuman ----------------------- */
