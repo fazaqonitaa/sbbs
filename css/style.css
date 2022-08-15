@@ -985,14 +985,33 @@ h4 {
   margin-left: 10px;
 }
 
+.kategori {
+  margin-left: 100px;
+  margin-top: 60px;
+}
+
 .tag-card {
-  width: 250px;
-  height: 30px;
+  display: flex;
+  gap: 1rem;
+}
+
+.tag-card span {
   background-color: var(--tertiary);
+  padding: 5px 10px;
   border-radius: 5px;
 }
+
 /* ----------------------- Pengumuman ----------------------- */
 
+.info-pengumuman {
+  margin-left: 30px;
+  margin-right: 200px;
+  margin-top: 12px;
+}
+
+.card-info-pengumuman {
+  margin-top: 20px;
+}
 /* ----------------------- Detail Pengumuman ----------------------- */
 
 /* ----------------------- Tata Cara Pendaftaran ----------------------- */
