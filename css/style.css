@@ -1016,4 +1016,77 @@ h4 {
 
 /* ----------------------- Tata Cara Pendaftaran ----------------------- */
 
+.offline span {
+  background-color: var(--tertiary);
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.offline {
+  display: flex;
+  gap: 1rem;
+}
+
+.margin-card {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.txt-pendaftaran {
+  margin-top: 40px;
+}
+
+.card-syarat {
+  height: 280px;
+  background-color: var(--secondary);
+  margin-top: 50px;
+}
+
+.list-syarat {
+  margin-left: 50px;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.card-syarat h4 {
+  align-content: center;
+  margin-top: 70px;
+}
+
+.card-info {
+  background-color: #ebf5f9;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.icon-info {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.card-bank {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card-bank img {
+  width: 100px;
+  height: 50px;
+}
+
+.card-bank h4 {
+  margin-top: 13px;
+  padding-left: 10px;
+}
+
+.card-bank-info {
+  justify-content: center;
+}
+
 /* ----------------------- PPDB ----------------------- */
