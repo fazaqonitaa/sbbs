@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>SMP Baiturrosyid Boarding School</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -39,107 +38,109 @@
     <link href="css/flickity.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary m-1" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-        <div class="spinner-grow text-dark m-1" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-        <div class="spinner-grow text-secondary m-1" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+      <div class="spinner-grow text-primary m-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-dark m-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-secondary m-1" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
-        <div class="col-md-7">
-            <a href="index.html">
-                <img src="img/logo.png" width="60px" height="54px" style="float: left; margin-left: 30px;" />
-                <h1 class="font-weight-black">SMP Baiturrosyid</h1>
-                <h2 class="font-weight-semi-bold">Boarding School Padang</h2>
-            </a>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <div class="col-md-7">
+        <a href="index.html">
+          <img src="img/logo.png" width="60px" height="54px" style="float: left; margin-left: 30px" />
+          <h1 class="font-weight-black">SMP Baiturrosyid</h1>
+          <h2 class="font-weight-semi-bold">Boarding School Padang</h2>
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-right: 1300px">
-            <div class="navbar-nav ms-auto py-0 font">
-                <a href="index.html" class="nav-item nav-link">Beranda</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang Sekolah</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item font">Profil Sekolah</a>
-                        <a href="team.html" class="dropdown-item">Struktural & Tenaga Pendidik</a>
-                    </div>
-                </div>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item">Berita Terkini</a>
-                        <a href="team.html" class="dropdown-item">Event</a>
-                    </div>
-                </div>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PPDB</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="tatacara.html" class="dropdown-item">Tata Cara Pendaftaran</a>
-                        <a href="ppdb.html" class="dropdown-item">PPDB</a>
-                    </div>
-                </div>
+      <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-right: 1300px">
+        <div class="navbar-nav ms-auto py-0 font">
+          <a href="index.html" class="nav-item nav-link">Beranda</a>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang Sekolah</a>
+            <div class="dropdown-menu m-0">
+              <a href="price.html" class="dropdown-item font">Profil Sekolah</a>
+              <a href="team.html" class="dropdown-item">Struktural & Tenaga Pendidik</a>
             </div>
-            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+          </div>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
+            <div class="dropdown-menu m-0">
+              <a href="price.html" class="dropdown-item">Berita Terkini</a>
+              <a href="team.html" class="dropdown-item">Event</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PPDB</a>
+            <div class="dropdown-menu m-0">
+              <a href="tatacara.html" class="dropdown-item">Tata Cara Pendaftaran</a>
+              <a href="ppdb.html" class="dropdown-item">PPDB</a>
+            </div>
+          </div>
         </div>
+        <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+      </div>
     </nav>
     <!-- Navbar End -->
 
     <!-- Full Screen Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content" style="background: rgba(9, 30, 62, 0.7)">
-                <div class="modal-header border-0">
-                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex align-items-center justify-content-center">
-                    <div class="input-group" style="max-width: 600px">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword" />
-                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
-                    </div>
-                </div>
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content" style="background: rgba(9, 30, 62, 0.7)">
+          <div class="modal-header border-0">
+            <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex align-items-center justify-content-center">
+            <div class="input-group" style="max-width: 600px">
+              <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword" />
+              <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
             </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Full Screen Search End -->
 
     <!-- Content Start -->
-    <!-- Header Image -->
-    <div class="margin-all" style="width: 100%; height: 654px">
-        <img src="img/header-pengumuman.svg">
-    </div>
-    <!-- End Header Image -->
+    <div>
+      <!-- Header Image -->
+      <div class="bg-header">
+        <img src="img/bg-program.jpg" />
+        
+      </div>
+      <!-- End Header Image -->
 
-    <!-- Isi Pengumuman -->
-    <div class="container-xl bg-secondary text-dark p-5 w-100" style="border-radius: 10px; margin-top: -150px; box-shadow: #051225; z-index: 10;">
-        <div class="d-flex">
-            <div>
-                <p class="font-weight-semi-bold" style="margin-left: 50px">
-                    Sekolah berbasis pondok pesantren dengan pola asuh boarding school saat ini merupakan sebuah keniscayaan. Konsep ini mampu menjawab tantangan-tantangan yang dirasakan orang tua dalam menata masa depan pendidikan generasi penerus mereka. Dengan harapan,
-                    kelak generus ini tumbuh menjadi anak-anak yang unggul dan gemilang di zamannya.
-                </p>
-                <div class="d-flex" style="margin-left: 50px">
-                    <hr style="width: 10px; color: black" />
-                    <p>Renol S.Pi,</p>
-                    <p>Kepala Sekolah</p>
-                </div>
-            </div>
+      <!-- Isi Pengumuman -->
+      <div class="isi-pengumuman">
+        <p class="p1sem text-center judul-pengumuman">Recruitment Staff Admin</p>
+        <div class="p2reg margin-all konten-pengumuman">
+            <ul>Candidate must graduated at least from Senior High School.</ul>
+            <ul>Fresh graduates are very welcome.</ul>
+            <ul>Excellent spoken and written in English (preferable).</ul>
+            <ul>Required Skill(s): Strong in operating Microsoft Office.</ul>
+            <ul>Good administrative skill, detail-oriented.</ul>
+            <ul>Have a good in filling documents.</ul>
+            <ul>Trustworthy, willingness to learn, loyal, good interpersonal skills & communication.</ul>
+            <ul>Able to work with the team.</ul>
         </div>
+        <button type="button" class=" btn btn-primary"> <span class="p2sem">Apply here</span> </button>
+      </div>
+      <!-- End Isi Pengumuman -->
     </div>
-    <!-- End Isi Pengumuman -->
     <!-- Content End -->
 
     <!-- Footer Start -->
@@ -265,6 +266,5 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/carousel.js"></script>
-</body>
-
+  </body>
 </html>
