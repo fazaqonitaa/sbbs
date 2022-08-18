@@ -548,40 +548,6 @@ h4 {
 
 /* -----------------------Footer----------------------- */
 
-.program-sekolah {
-  height: 560px;
-  background-color: var(--tertiary);
-  margin-top: 40px;
-  margin-bottom: 80px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.kotak-program-left {
-  width: 50%;
-  height: 280px;
-  float: left;
-}
-
-.kotak-program-right {
-  width: 50%;
-  height: 280px;
-  float: right;
-}
-
-.circle-card {
-  left: 434px;
-  top: 90px;
-  position: relative;
-  width: 400px;
-  height: 400px;
-  background: white;
-  border-radius: 100%;
-  align-items: center;
-}
-
-/* -----------------------Footer----------------------- */
-
 .footerWrap:before {
   height: 10px;
   background: var(--tertiary);
@@ -786,7 +752,7 @@ h4 {
   width: 1254px;
   height: 572px;
   margin-left: 550px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 /* cell number */
@@ -801,15 +767,87 @@ h4 {
 }
 
 /* Visi Misi */
+
+.card1 {
+  position: absolute;
+  margin-left: 60px;
+  margin-bottom: 0%;
+  margin-right: 50%;
+  width: 637px;
+  height: 351px;
+  background-color: #005640;
+  border-radius: 10px;
+  z-index: 5;
+}
+
+.card2 {
+  position: absolute;
+  margin-left: 650px;
+  margin-top: -80px;
+  width: 637px;
+  height: 351px;
+  background-color: #63b995;
+  border-radius: 10px;
+}
+
 .kutip1 {
   width: 116px;
   height: 116px;
-  top: 550px;
 }
+
+.kutip1 img {
+  margin-top: 60px;
+  position: absolute;
+  z-index: 6;
+  margin-left: 30px;
+}
+
 .kutip2 {
   width: 116px;
   height: 116px;
-  top: 550px;
+}
+
+.kutip2 img {
+  margin-top: 320px;
+  margin-left: 1200px;
+  z-index: 5;
+  position: relative;
+}
+
+.program-sekolah {
+  height: 560px;
+  background-color: var(--tertiary);
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.kotak-program-left {
+  width: 50%;
+  height: 280px;
+  float: left;
+}
+
+.kotak-program-right {
+  width: 50%;
+  height: 280px;
+  float: right;
+}
+
+.circle-card {
+  left: 434px;
+  top: 90px;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: white;
+  border-radius: 100%;
+  align-items: center;
+}
+
+.text {
+  padding: 50px 50px;
 }
 
 /* ----------------------- Struktural ----------------------- */
