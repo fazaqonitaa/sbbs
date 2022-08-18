@@ -82,26 +82,21 @@
     <!-- Navbar Start -->
     <div id="header" role="banner">
         <div id="header-subcontainer">
-            <a id="brand" class="brocku" href="https://brocku.ca" title="Brock University home page" rel="home" tabindex="10">
+            <a id="brand" href="index.html" title="SBBS home page" rel="home" tabindex="10">
                 <svg width="500" height="135" left="100">
 				<image xlink:href="img/LogoBerita.png" src="img/LogoBerita.png" width="100%" height="100%">
 			</svg></a>
-            <a id="subbrand" class="thebrocknews" href="https://brocku.ca/brock-news" title="The Brock News Home Page" rel="home" tabindex="11">
+            <a id="subbrand" class="thebrocknews" href="berita.html" title="SBBS News Home Page" rel="home" tabindex="11">
                 <svg width="300" height="75">
 				<image xlink:href="img/SBBS News.png" src="img/SBBS News.png" width="100%" height="100%">
-
-			</svg></a>
-            <!-- <p class="thisissue"><span class="date">Saturday, August 13, 2022</span> <span class="divider"> -->
-            <h5>Saturday, August 13, 2022</h5>
-
-            <hr>
-
+			    </svg></a>
+            <h5>Saturday, August 13 2022</h5>
         </div>
-
     </div>
-    <!-- #header -->
-    <!-- Menu -->
-    <div id="main-menu-container" role="navigation">
+    <!-- Navbar End -->
+
+    <!-- Menu Start -->
+    <div id="main-menu-container" role="navigation" style="margin-top: 30px;">
         <div class="menu-inner-container">
             <div class="main-menu-parent">
                 <div class="main-menu">
@@ -119,34 +114,14 @@
             </div>
         </div>
     </div>
-
-    <div id="main-menu-container2" role="navigation">
-        <div class="menu-inner-container">
-            <div class="main-menu-parent">
-                <div class="main-menu">
-                    <ul id="menu-main-menu" class="menu">
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right" left="100px">
-                                <li class="breadcrumb-item"><a href="dashboard">Home</a></li>
-                                <li class="breadcrumb-item active" style="font-weight: 500;">Berita</li>
-                            </ol>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="main-menu-container2" role="navigation">
-        <div class="menu-inner-container">
-            <div class="main-menu-parent">
-                <div class="main-menu">
-                    <ul id="menu-main-menu" class="menu">
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb p2sem" style="margin-top: 20px; margin-left: 200px;">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Berita</li>
+        </ol>
+      </nav>
+    <!-- Menu End -->
 
     <!-- Full Screen Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1">
@@ -170,17 +145,19 @@
     <div class="container-fluid p-0">
         <!-- Header Berita -->
         <div class="header-berita bg-header">
+            <div>
+                <img src="img/after.jpg" style="width: 600px; height: 400px; margin-left: 570px; margin-top: 80px;">
+            </div>
+        </div>
+        <div class="head-berita">
             <h3 style="margin-left: 80px;">Ac ut nullam
                 <br> curabitur cursus tortor, quam.
                 <br> Semper at elementum, justo,
                 <br> aliquet vel in est.</h3>
             <a href="ppdb.html" class=" btn-selengkapnya font-weight-semi-bold">Selengkapnya</a>
-            <div>
-                <img src="img/after.jpg" style="width: 600px; height: 400px; margin-left: 570px; margin-top: -200px;">
-            </div>
         </div>
         <!-- List Berita -->
-        <div class="d-flex">
+        <div class="d-flex" style="margin-top: 100px;">
             <div>
                 <div class="margin-all">
                     <h3 style="margin-top: 96px">Berita Terbaru</h3>
@@ -278,7 +255,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <!-- Content End -->
 
