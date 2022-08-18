@@ -789,7 +789,50 @@ h4 {
   top: 550px;
 }
 
-/* -----------------------List Berita----------------------- */
+/* ----------------------- Struktural ----------------------- */
+
+.content-card-near1 img {
+  margin-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  width: 250px;
+  height: 400px;
+  left: 60px;
+  z-index: 4;
+}
+
+.card-n {
+  margin-left: 44px;
+}
+
+.detail-restaurant1 {
+  position: absolute;
+  background-color: var(--white);
+  width: 200px;
+  height: 90px;
+  border-radius: 10px;
+  margin-top: -110px;
+  margin-left: 25px;
+}
+
+.detail-restaurant1 img {
+  width: 130px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.detail-restaurant1 .p2sem {
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.detail-restaurant1 .p2reg {
+  margin-top: -10px;
+  line-height: 30px;
+}
+
+/* ----------------------- Berita Terkini ----------------------- */
 
 .margin-berita-all {
   margin-left: 140px;
