@@ -844,6 +844,11 @@ h4 {
   margin-top: 20px;
 }
 
+.margin-tanggal {
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
 .info-berita {
   margin-left: 30px;
   margin-right: 100px;
@@ -886,6 +891,7 @@ h4 {
 }
 
 .paragraf-berita {
+  margin-top: 40px;
   margin-right: 120px;
   text-align: justify;
 }
@@ -893,7 +899,7 @@ h4 {
 .paragraf-berita-n {
   margin-right: 120px;
   text-align: justify;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 /* ----------------------- Event ----------------------- */
