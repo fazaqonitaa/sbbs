@@ -805,7 +805,7 @@ h4 {
   margin-left: 44px;
 }
 
-.detail-restaurant1 {
+.detail-guru {
   position: absolute;
   background-color: var(--white);
   width: 200px;
@@ -815,19 +815,19 @@ h4 {
   margin-left: 25px;
 }
 
-.detail-restaurant1 img {
+.detail-guru img {
   width: 130px;
   height: 20px;
   margin-left: 20px;
   margin-top: 20px;
 }
 
-.detail-restaurant1 .p2sem {
+.detail-guru .p2sem {
   line-height: 30px;
   margin-top: 10px;
 }
 
-.detail-restaurant1 .p2reg {
+.detail-guru .p2reg {
   margin-top: -10px;
   line-height: 30px;
 }
