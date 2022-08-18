@@ -1046,6 +1046,11 @@ h4 {
 
 /* ----------------------- Pengumuman ----------------------- */
 
+.tr-pengumuman {
+  margin-left: -270px;
+  margin-top: 20px;
+}
+
 .info-pengumuman {
   margin-left: 30px;
   margin-right: 200px;
