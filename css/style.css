@@ -1342,7 +1342,48 @@ h4 {
 }
 
 .card-bank-info {
+  margin-top: 20px;
+  margin-left: 500px;
   justify-content: center;
+}
+
+.card-pusat {
+  height: 140px;
+  background-color: var(--tertiary);
+  margin-top: 50px;
+  margin-bottom: -60px;
+}
+
+.vl {
+  border-left: 1px solid black;
+  height: 50px;
+}
+
+.informasi1 {
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.informasi2 {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.informasi2 img {
+  margin-left: 100px;
+  margin-top: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.informasi3 {
+  margin-left: 50px;
+  margin-top: 36px;
+}
+
+.informasi4 {
+  margin-left: 50px;
+  margin-top: 36px;
 }
 
 /* ----------------------- PPDB ----------------------- */
