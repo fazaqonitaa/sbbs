@@ -19,6 +19,7 @@ body {
   font-family: "Bliss Light", "Trebuchet MS", sans-serif;
   font-weight: 200;
   color: #585858;
+  overflow-x: hidden;
 }
 #wrapper {
   margin: 0 auto;
@@ -30,11 +31,11 @@ body {
 #container {
   margin: 0 auto;
 }
-hr {
+/* hr {
   visibility: hidden;
   clear: both;
   margin: 0;
-}
+} */
 
 /* Hidden from screen readers */
 .hfsr {
@@ -1323,13 +1324,7 @@ img.weather-icon:hover {
     position: relative;
     padding-right: 30px;
   }
-  #main-menu-container
-    .main-menu
-    ul
-    > li
-    > ul
-    > li.menu-item-has-children
-    > a:after {
+  #main-menu-container .main-menu ul > li > ul > li.menu-item-has-children > a:after {
     content: "\f105";
     display: inline-block;
     position: absolute;

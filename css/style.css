@@ -815,6 +815,7 @@ h4 {
 }
 
 .program-sekolah {
+  position: relative;
   height: 560px;
   background-color: var(--tertiary);
   margin-top: 40px;
@@ -838,12 +839,20 @@ h4 {
 .circle-card {
   left: 434px;
   top: 90px;
-  position: relative;
+  position: absolute;
   width: 400px;
   height: 400px;
   background: white;
   border-radius: 100%;
   align-items: center;
+}
+
+.circle-inner {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .text {
