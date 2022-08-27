@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&family=Work+Sans:wght@400;700&display=swap");
-:root {
+ :root {
     --primary: #005640;
     --secondary: #63b995;
     --tertiary: #e8cc6d;
@@ -1458,4 +1458,28 @@ h4 {
     text-align: center;
     margin-left: 1100px;
     margin-top: -100px;
+}
+
+
+/* Form Daftar */
+
+.form {
+    background-color: #eeeeee;
+    height: auto;
+    width: 70%;
+    /* justify-content: center; */
+    margin-left: 230px;
+    border-radius: 20px;
+    box-shadow: #212121;
+}
+
+.form form {
+    margin: 20px;
+    justify-items: center;
+}
+
+.center {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
 }
