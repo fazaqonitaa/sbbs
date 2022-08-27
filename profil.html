@@ -37,6 +37,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/flickity.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
@@ -147,12 +148,12 @@
 
 
     <!-- Carousel -->
-    <div class="ml-4" style="margin-top: 70px">
+    <div class="ml-4" style="margin-top: 70px" data-aos="fade-up" data-aos-duration="1000">
         <h3 class="text-center">Sarana Prasarana</h3>
         <hr class="hr-center" style="margin-left: 670px;" />
     </div>
 
-    <div class="carousel" data-flickity='{ "wrapAround": true,  "autoPlay": true,  "imagesLoaded":true }'>
+    <div class="carousel" data-flickity='{ "wrapAround": true,  "autoPlay": true,  "imagesLoaded":true }' data-aos="fade-up" data-aos-duration="1000">
         <div class="carousel-cell">
             <img class="img-home" src="img/bg.jpg" alt="">
         </div>
@@ -164,10 +165,10 @@
         </div>
     </div>
 
-    </div>
+
 
     <!-- Program Sekolah -->
-    <section id="program">
+    <section id="program" data-aos="fade-up" data-aos-duration="1000">
         <div class="ml-4" style="margin-top: 100px">
             <h3 class="text-center">Program Sekolah</h3>
             <hr class="hr-center" style="margin-left: 670px;" />
@@ -331,6 +332,10 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

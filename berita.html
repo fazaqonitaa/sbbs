@@ -41,6 +41,7 @@
     <link href="css/flickity.min.css" rel="stylesheet" />
     <link href="css/brock.css" rel="stylesheet" />
     <link href="css/menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -159,7 +160,7 @@
             <a href="ppdb.html" class=" btn-selengkapnya font-weight-semi-bold">Selengkapnya</a>
         </div>
         <!-- List Berita -->
-        <div class="d-flex" style="margin-top: 100px;">
+        <div class="d-flex" style="margin-top: 100px;" data-aos="fade-up" data-aos-duration="1000">
             <div>
                 <div class="margin-all">
                     <h3 style="margin-top: 96px">Berita Terbaru</h3>
@@ -383,6 +384,10 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/carousel.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
