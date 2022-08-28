@@ -198,8 +198,8 @@ h4 {
 }
 
 .img-prog {
-  width: 45%;
-  height: 25%;
+  width: 25%;
+  height: 35%;
 }
 
 .img-footer {
@@ -274,6 +274,8 @@ h4 {
   opacity: 1;
   display: block;
   position: relative;
+  width: 50%;
+  height: 50%;
 }
 
 .profile hr {
@@ -291,24 +293,24 @@ h4 {
 }
 
 .card-prestasi1 p {
-  padding: 20px;
+  padding: 50px;
 }
 
 .card-prestasi2 {
-  width: 670px;
+  width: 710px;
   height: 158px;
   background-color: var(--tertiary);
   margin-top: 30px;
 }
 
 .card-prestasi2 p {
-  padding: 20px;
+  padding: 25px;
 }
 
 .cardberita1 {
   position: relative;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   display: flex;
 }
 
@@ -321,6 +323,7 @@ h4 {
   text-align: center;
   position: absolute;
   bottom: 0;
+  color: var(--white);
 }
 
 .footerWrap {
