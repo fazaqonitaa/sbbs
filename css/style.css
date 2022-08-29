@@ -6,7 +6,7 @@
   --primary: #005640;
   --secondary: #63b995;
   --tertiary: #e8cc6d;
-  --white: #f1f1f1;
+  --white: #ffffff;
   --black: #212121;
   --grey: #aeaeae;
 }
@@ -137,10 +137,11 @@ h4 {
   color: white;
   width: 220px;
   height: 46px;
-  border-radius: 5px;
+  border-radius: 8px;
   padding-top: 5px;
   font-size: 20px;
   font-family: "Work Sans", sans-serif;
+  font-weight: 600;
   margin: 2rem 0;
   margin-left: 80px;
   text-align: center;
@@ -1028,6 +1029,12 @@ h4 {
   margin-right: 120px;
 }
 
+/* .card-berita-penting-big {
+  background-color: #ddd;
+  border: #aeaeae;
+  border-radius: 8px;
+} */
+
 .card-berita-penting-satuan img {
   width: 200px;
   height: 160px;
@@ -1073,6 +1080,7 @@ h4 {
   background-color: var(--white);
   position: absolute;
   margin-top: -180px;
+  border-radius: 0px 8px 0px 0px;
 }
 
 .card-judul h3 {
@@ -1102,6 +1110,7 @@ h4 {
   width: 60px;
   height: 40px;
   background-color: var(--primary);
+  border-radius: 0px 0px 8px 8px;
 }
 
 .card-bulan p {
@@ -1114,14 +1123,20 @@ h4 {
   margin-left: 66px;
 }
 
+.img-box-event img {
+  margin-left: 40px;
+  width: 100%;
+  height: 80%;
+}
+
 .content-event {
-  margin-right: -60px;
+  margin-right: -50px;
 }
 
 .card-event .p1bold {
   margin-left: 40px;
   margin-top: 20px;
-  margin-right: 10px;
+  padding-right: 10px;
 }
 
 .card-event .p2reg {
@@ -1131,8 +1146,8 @@ h4 {
 
 .card-kalender-kecil {
   position: absolute;
-  margin-left: 300px;
-  margin-top: -304px;
+  margin-left: 290px;
+  margin-top: -290px;
 }
 
 .card-tanggal-kecil {
@@ -1151,6 +1166,7 @@ h4 {
   width: 50px;
   height: 30px;
   background-color: var(--primary);
+  border-radius: 0px 0px 8px 8px;
 }
 
 .card-bulan-kecil p {
@@ -1224,7 +1240,8 @@ h4 {
 
 .judul-ann {
   margin-top: 220px;
-  margin-left: -340px;
+  margin-left: -380px;
+  margin-right: 140px;
 }
 
 .info-pengumuman {
@@ -1247,12 +1264,12 @@ h4 {
 .isi-pengumuman {
   z-index: 5;
   display: inline-block;
-  margin-top: -400px;
-  margin-left: 180px;
-  width: 1000px;
-  height: 600px;
-  border-radius: 20px;
-  background-color: white;
+  margin-top: -200px;
+  margin-left: 230px;
+  width: 900px;
+  height: 550px;
+  border-radius: 16px;
+  background-color: var(--tertiary);
   position: relative;
   align-items: center;
   box-shadow: 0px 0px 26px -17px rgba(33, 33, 33, 0.74);
@@ -1267,10 +1284,15 @@ h4 {
 }
 
 .isi-pengumuman button {
-  margin-top: 20px;
-  margin-left: 130px;
+  margin-top: 40px;
+  margin-left: 100px;
   border-radius: 5px;
-  background-color: #63b995;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.isi-pengumuman span {
+  color: var(--white);
 }
 
 /* ----------------------- Tata Cara Pendaftaran ----------------------- */
