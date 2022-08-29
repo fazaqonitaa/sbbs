@@ -129,8 +129,8 @@ h4 {
 
 .btn-custom:hover {
     display: inline-block;
-    background: var(--primary);
-    color: white;
+    background: #63b995;
+    color: black;
 }
 
 .btn-selengkapnya {
@@ -148,10 +148,19 @@ h4 {
     text-align: center;
 }
 
+.baten a {
+    margin-left: -30px;
+}
+
 .btn-selengkapnya:hover {
     display: inline-block;
     background: var(--primary);
     color: white;
+}
+
+.img-home {
+    border-radius: 12px;
+    height: 604px;
 }
 
 .btn-primary,
@@ -320,6 +329,11 @@ h4 {
     width: 90%;
     height: 90%;
     display: flex;
+}
+
+.berita {
+    margin-right: 100px;
+    /* margin-left: 100px; */
 }
 
 .cardberita1 img {
