@@ -1181,6 +1181,14 @@ h4 {
   background-color: var(--tertiary);
   border-radius: 5px;
 }
+.card-jadwal1 {
+  margin-left: 100px;
+  margin-top: 40px;
+  width: 500px;
+  height: 200px;
+  background-color: var(--tertiary);
+  border-radius: 5px;
+}
 
 .margin-detail-event {
   margin-left: 40px;
@@ -1206,8 +1214,15 @@ h4 {
   color: var(--primary);
   margin-left: 20px;
 }
+.card-jadwal1 i {
+  color: var(--primary);
+  margin-left: 20px;
+}
 
 .card-jadwal p {
+  margin-left: 10px;
+}
+.card-jadwal1 p {
   margin-left: 10px;
 }
 

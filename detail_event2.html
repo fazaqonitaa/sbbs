@@ -37,20 +37,11 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/flickity.min.css" rel="stylesheet" />
-    <link href="css/brock.css" rel="stylesheet" />
-    <link href="css/menu.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/6.0.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
 
-    <style>
-        .bg-header {
-            background-image: url("img/bg-program.jpg");
-            width: 1254px;
-            height: 440px;
-            margin-left: 50px;
-        }
-    </style>
 </head>
 
 <body>
@@ -69,51 +60,47 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <div id="header" role="banner">
-        <div id="header-subcontainer">
-            <a id="brand" href="index.html" title="SBBS home page" rel="home" tabindex="10">
-                <svg width="500" height="135" left="100">
-				    <image xlink:href="img/LogoBerita.png" src="img/LogoBerita.png" width="100%" height="100%">
-			    </svg>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+        <div class="col-md-7">
+            <a href="index.html">
+                <img src="img/logo.png" width="60px" height="54px" style="float: left; margin-left: 30px;" />
+                <h1 class="font-weight-black">SMP Baiturrosyid</h1>
+                <h2 class="font-weight-semi-bold">Boarding School Padang</h2>
             </a>
-            <a id="subbrand" class="thebrocknews" href="berita.html" title="SBBS News Home Page" rel="home" tabindex="11">
-                <svg width="300" height="75">
-				    <image xlink:href="img/SBBS News.png" src="img/SBBS News.png" width="100%" height="100%">
-			    </svg>
-            </a>
-            <h5>Saturday, August 13 2022</h5>
         </div>
-    </div>
-    <!-- Navbar End -->
-
-    <!-- Menu Start -->
-    <div id="main-menu-container" role="navigation" style="margin-top: 30px;">
-        <div class="menu-inner-container">
-            <div class="main-menu-parent">
-                <div class="main-menu">
-                    <ul id="menu-main-menu" class="menu">
-                        <div class="input-group">
-                            <input type="text">
-                            <div class="input">
-                                <div class="input-group-text">
-                                    <span class="fas fa-search"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse" style="margin-right: 1300px">
+            <div class="navbar-nav ms-auto py-0 font">
+                <a href="index.html" class="nav-item nav-link">Beranda</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang Sekolah</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="profil.html" class="dropdown-item font">Profil Sekolah</a>
+                        <a href="struktural.html" class="dropdown-item">Struktural & Tenaga Pendidik</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="berita.html" class="dropdown-item">Berita Terkini</a>
+                        <a href="event.html" class="dropdown-item">Event</a>
+                        <a href="pengumuman.html" class="dropdown-item">Pengumuman</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PPDB</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="pendaftaran.html" class="dropdown-item">Tata Cara Pendaftaran</a>
+                        <a href="ppdb.html" class="dropdown-item">PPDB</a>
+                    </div>
                 </div>
             </div>
+            <button type="button" class="btn text-dark" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
         </div>
-    </div>
-
-    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-        <ol class="breadcrumb p2sem" style="margin-top: 20px; margin-left: 140px;">
-            <li class="breadcrumb-item"><a href="index.html" style="color: #005640;">Home</a></li>
-            <li class="breadcrumb-item" aria-current="page"><a href="berita.html" style="color: #005640;">Berita</a> </li>
-            <li class="breadcrumb-item active" aria-current="page" style="color: #404040;">Detail Berita</li>
-        </ol>
     </nav>
-    <!-- Menu End -->
+    <!-- Navbar End -->
 
     <!-- Full Screen Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1">
@@ -135,60 +122,66 @@
 
     <!-- Content Start -->
 
-    <div class="d-flex">
-        <!-- Detail Berita -->
-        <div>
-            <div class="detail-berita">
-                <h3 class="margin-berita-all">Siswa SBBS meraih prestasi dalam dalam pagelaran Musabaqoh Tilawatil Qur'an ( MTQ ) Ke IX Kenagarian Ophir </p></h3>
-                <img src="img/penulis-berita2.svg" alt="" style="width: 150px; height:100px" class="margin-tanggal">
-                <img src="img/list-berita2.png" class="margin-berita-all">
-                <p class="p1reg margin-berita-all paragraf-berita">Alhamdulillah siswa SMP Baiturrosyid Boarding School ( SBBS ) atas nama :
-
-                    M. ALDO HARLINSON
-                    
-                    Memperoleh juara ke II dalam pagelaran Musabaqoh Tilawatil Qur'an ( MTQ ) Ke IX Kenagarian Ophir Kategori Tilawah dan Juara II Kategori Adzan
-                    
-                    Semoga Selalu Sukses dan Barokah
-                    </p>
-                
+    <!-- Header Event -->
+    <div class="margin-all header-event">
+        <img src="img/list-event2.png">
+        <div class="card-judul">
+            <h3>Gotong Royong Bersama Lingkungan Pondok Santri SMP Baiturrosyid Padang</h3>
+        </div>
+        <div class="card-kalender">
+            <div class="card-tanggal">
+                <h4>18</h4>
+            </div>
+            <div class="card-bulan">
+                <p class="p1bold">Jul</p>
             </div>
         </div>
-        <!-- End Detail Berita -->
-
-        <!-- Berita Penting -->
-        <div class="card-berita-penting-big">
-            <div class="margin-berita-penting">
-                <p class="p1sem" style="margin-top: 130px; margin-left: 26px;">Berita Penting</p>
-                <hr style="width: 53px; color: black; height: 1px; margin-left: 70px;" />
-            </div>
-            <div class="card-berita-penting">
-                <div>
-                    <div class="card-berita-penting-satuan">
-                        <img src="img/beritapenting1.png">
-                        <a href="detail_berita5.html"><p  class="p2reg">Kegiatan Visitasi SBBS Padang oleh Dinas Pendidikan Kota Padang</p></a>
-                        
-                    </div>
-                </div>
-                <hr style="width: 50px; margin-left:70px">
-                <div>
-                    <div class="card-berita-penting-satuan">
-                        <img src="img/beritapenting2.png">
-                        <a href="detail_berita4.html"><p class="p2reg">Lokakarya SBBS Padang Bahas Inovasi Belajar</p></a>
-                        
-                    </div>
-                </div>
-                <hr style="width: 50px; margin-left:70px">
-                <div>
-                    <div class="card-berita-penting-satuan">
-                        <img src="img/beritapenting3.png">
-                        <a href="detail_berita8.html"><p class="p2reg">SBBS Padang menggelar vaksinasi masal untuk <br> guru, karyawan dan siswa-siswi SBBS.</p></a>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Berita Penting -->
     </div>
+    <!-- End Header Event -->
+
+    <!-- Detail Event -->
+    <div class="d-flex">
+        <!-- Card Jadwal Event -->
+        <div class="card-jadwal1 ">
+            <div class="d-flex info1">
+                <i class="bi bi-calendar-fill fa-lg"></i>
+                <p class="p2sem">Sabtu, 18 Juli 2021</p>
+            </div>
+            <div class="d-flex">
+                <i class="bi bi-clock-fill fa-lg"></i>
+                <p class="p2sem">08.00 - 12.00</p>
+            </div>
+            <div class="d-flex">
+                <i class="bi bi-geo-alt-fill fa-lg"></i>
+                <p class="p2sem">Kawasan Sekolah dan <br> Pondok</p>
+            </div>
+        </div>
+        <!-- End Card Jadwal Event -->
+
+        <!-- Deskripsi Event -->
+        <div class="deskripsi-event ">
+            <p class="p1reg margin-detail-event paragraf-event">Gotong royong dalam rangka kebersamaan dan kebersihan lingkungan santriwan santriwati agar lingkungan tetap bersih dan mereka terbiasa dengan yang namanya kebersihan. 
+            </p>
+            <p class="p1reg margin-detail-event paragraf-event">Gotong royong dalam rangka kebersamaan dan kebersihan lingkungan santriwan santriwati agar lingkungan tetap bersih dan mereka terbiasa dengan yang namanya kebersihan. 
+            </p>
+            
+        </div>
+        <!-- End Deskripsi Event -->
+    </div>
+    <!-- End Detail Event -->
+
+    <!-- Kategori Event -->
+    <div>
+        <div class="kategori">
+            <h4>Kategori</h4>
+        </div>
+        <div class="tag-card margin-all">
+            <span class="p2reg">Kunjungan Edukasi</span>
+            <span class="p2reg">Ilmu Pengetahuan</span>
+            <span class="p2reg">Study Tour</span>
+        </div>
+    </div>
+    <!-- End Kategori Event -->
     <!-- Content End -->
 
     <!-- Footer Start -->
